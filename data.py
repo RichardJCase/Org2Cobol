@@ -23,8 +23,6 @@ def data(lines):
 
         return line
     
-    #todo: records
-
     transformations = [sections, primatives]
     for transformation in transformations:
         lines = map(transformation, lines)
